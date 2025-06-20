@@ -71,7 +71,7 @@ const obtenerarticulos = async () => {
         }));
         console.log('Artículos obtenidos:', articulos.value);
     } catch (error) {
-        console.error('Error al obtener artículos:', error);
+        console.error('Error al obtener artículos - :', error);
     }
 };
 
