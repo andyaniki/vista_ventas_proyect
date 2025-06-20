@@ -69,7 +69,6 @@ const obtenerarticulos = async () => {
             value: articulo.value, // ID del artículo
             label: articulo.label, // Nombre del artículo
         }));
-        console.log('Artículos obtenidos:', articulos.value);
     } catch (error) {
         console.error('Error al obtener artículos - :', error);
     }
