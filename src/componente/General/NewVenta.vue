@@ -75,12 +75,10 @@ const obtenerarticulos = async () => {
     }
 };
 
-// Llamada a la API cuando el componente se monta
 onMounted(() => {
     obtenerarticulos();
 });
 
-// Función para guardar la venta
 const saveVenta = async () => {
     try {
         const ventaData = {
